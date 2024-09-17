@@ -1,19 +1,45 @@
-/* 
-    GENERAL
-*/
-.container {
-    max-width: 1000px;
+@use '../scss/partials/variables.scss' as*;
+/**********
+    App
+**********/
+main {
+    height: calc(100vh - 100px);
+    background-color: $mainBgColor;
+}
+
+// select section
+main .select-section {
+    width: 80%;
+    padding: 15px;
     margin: 0 auto;
 }
 
-.my-row {
-    display: flex;
-    flex-wrap: wrap;
+// cards section
+main .cards-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-/* 
-    APP
-*/
-main {
-  text-align: center;
+main .cards-section .founder-main {
+    background-color: $headerMainBgColor;
+}
+
+main .cards-section .founder-main p {
+    padding: 15px;
+    color: white;
+    margin-bottom: 0;
+}
+
+main .cards-section .cards-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+//card
+main .cards-section .card {
+    background-color: beige;
+    width: calc((100% / 5) - 10px);
+    text-align: center;
 }

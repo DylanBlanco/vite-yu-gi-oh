@@ -1,0 +1,22 @@
+@use '../scss/partials/variables.scss' as*;
+/* 
+    GENERAL
+*/
+header {
+    height: 100px;
+    text-align: left;
+    padding: 20px 0;
+}
+
+/* 
+    APP
+*/
+
+header {
+    background-color: $headerBgColor;
+}
+
+h1 {
+    color: $headerColor;
+    padding: 0 20px;
+}

@@ -1,14 +1,16 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
 
 export default {
   data() {
     return { 
-        
+
     }
   },
   components: {
-    AppHeader
+    AppHeader,
+    AppMain
   },
   methods: {
     
@@ -20,6 +22,9 @@ export default {
     <div>
         <!-- header component -->
         <AppHeader />
+
+        <!-- main component -->
+         <AppMain/>
     </div>
 </template>
 
