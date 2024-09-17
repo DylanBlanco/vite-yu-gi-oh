@@ -2,7 +2,7 @@
 export default {
   data() {
     return { 
-      message: 'Template Vite + Vue'
+      message: 'Yu-Gi-Oh Api',
     }
   }
 }
@@ -21,11 +21,12 @@ export default {
 
 header {
   background-color: $mainBgColor;
-  text-align: center;
+  text-align: left;
   padding: 20px 0;
 }
 
 h1 {
   color: $mainColor;
+  padding: 0 20px;
 }
 </style>
