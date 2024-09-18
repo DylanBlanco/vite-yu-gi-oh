@@ -5,6 +5,7 @@
 main {
     height: calc(100vh - 100px);
     background-color: $mainBgColor;
+    overflow-y: auto;
 }
 
 // select section
@@ -34,7 +35,7 @@ main .cards-section .founder-main p {
 main .cards-section .cards-box {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 10px;
 }
 
 //card

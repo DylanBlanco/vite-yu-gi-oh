@@ -1,20 +1,17 @@
 <script>
+// componenti
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 
 export default {
   data() {
-    return { 
-
+    return {
     }
   },
   components: {
     AppHeader,
     AppMain
   },
-  methods: {
-    
-  }
 }
 </script>
 
